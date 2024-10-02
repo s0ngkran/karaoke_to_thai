@@ -1,0 +1,267 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+h1 {
+	@apply text-3xl font-bold text-center;
+}
+h2 {
+	@apply text-2xl font-bold;
+}
+p {
+	@apply text-base;
+}
+
+.col {
+	@apply flex flex-col;
+}
+
+.row {
+	@apply flex flex-row;
+}
+
+.cc {
+	@apply justify-center items-center;
+}
+
+.jc {
+	@apply justify-center;
+}
+.js {
+	@apply justify-start;
+}
+.jb {
+	@apply justify-between;
+}
+.je {
+	@apply justify-end;
+}
+
+.ic {
+	@apply items-center;
+}
+.ie {
+	@apply items-end;
+}
+
+.is {
+	@apply items-start;
+}
+
+.t1 {
+	@apply text-[1.8rem];
+}
+.t2 {
+	@apply text-[1.6rem];
+}
+.t3 {
+	@apply text-[1.4rem];
+}
+.t4 {
+	@apply text-[1.2rem];
+}
+
+.t {
+	@apply text-[1.1rem];
+}
+.tt {
+	@apply text-[0.9rem];
+}
+.ttt {
+	@apply text-[0.7rem];
+}
+.tttt {
+	@apply text-[0.5rem];
+}
+.card {
+	@apply bg-gray-50 rounded shadow mx-2 my-2 p-2;
+}
+.carda {
+	@apply bg-blue-400 text-white rounded shadow my-2 p-2 hover:bg-gray-100;
+}
+.cardag {
+	@apply bg-gray-200 rounded shadow my-2 p-2;
+}
+.cardxx {
+	@apply bg-gray-50 rounded shadow my-2 p-2;
+}
+.cardItem {
+	@apply bg-gray-50 rounded shadow mx-2 p-2;
+}
+.cardf {
+	@apply bg-gray-50 rounded-full shadow m-1 py-2 px-4 hover:bg-gray-100;
+}
+.gr {
+	@apply bg-gray-500;
+}
+.bg {
+	@apply bg-gray-100;
+}
+.br {
+	@apply bg-red-100;
+}
+.tc {
+	@apply text-center;
+}
+.ts {
+	@apply text-start;
+}
+.tsm {
+	@apply text-sm;
+}
+.te {
+	@apply text-end;
+}
+.tg {
+	@apply text-white
+}
+.ts{
+	@apply text-gray-600;
+}
+.tgg {
+	@apply text-gray-700;
+}
+.wf {
+	@apply w-full;
+}
+
+.tp {
+	@apply text-pink-600;
+}
+
+.tpp {
+	color: #fd0fa9;
+}
+
+.bgp {
+	background-color: #fd0fa9;
+}
+
+.tb {
+	@apply text-blue-900;
+}
+
+.kanit-extralight {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 200;
+	font-style: normal;
+}
+
+.kanit-light {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.kanit-regular {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.kanit-medium {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.kanit-semibold {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.kanit-bold {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.kanit-extrabold {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 800;
+	font-style: normal;
+}
+
+.kanit-black {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 900;
+	font-style: normal;
+}
+
+.kanit-thin-italic {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 100;
+	font-style: italic;
+}
+
+.kanit-extralight-italic {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 200;
+	font-style: italic;
+}
+
+.kanit-light-italic {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.kanit-regular-italic {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.kanit-medium-italic {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 500;
+	font-style: italic;
+}
+
+.kanit-semibold-italic {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.kanit-bold-italic {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.kanit-extrabold-italic {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 800;
+	font-style: italic;
+}
+
+.kanit-black-italic {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 900;
+	font-style: italic;
+}
+
+.km {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.kr {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.kt {
+	font-family: 'Kanit', sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.ho {
+	@apply hover:scale-105 hover:cursor-pointer hover:text-pink-400 duration-300;
+}
